@@ -4,7 +4,7 @@
 
 ### Usage
 
-```javascript
+```JavaScript
 const { verify } = require('../index')
 
 let result = verify('Name', 'Alexander', [
