@@ -17,5 +17,6 @@ function verify(field, entry, rules) {
 }
 
 verify.string = require('./verifiers/string')
+verify.undefined = require('./verifiers/undefined')
 
 module.exports = { verify }
